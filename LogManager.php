@@ -245,7 +245,7 @@ class LogManager implements LoggerInterface
             $this->prepareHandler(
                 new StreamHandler(
                     $config['path'], $this->level($config),
-                    $config['bubble'] ?? true, $config['permission'] ?? null, $config['locking'] ?? false
+                    $config['bubble'] ?? true, $config['permission'] ?? 0777, $config['locking'] ?? false
                 )
             ),
         ]);
@@ -262,7 +262,7 @@ class LogManager implements LoggerInterface
         return new Monolog($this->parseChannel($config), [
             $this->prepareHandler(new RotatingFileHandler(
                 $config['path'], $config['days'] ?? 7, $this->level($config),
-                $config['bubble'] ?? true, $config['permission'] ?? null, $config['locking'] ?? false
+                $config['bubble'] ?? true, $config['permission'] ?? 0777, $config['locking'] ?? false
             )),
         ]);
     }
