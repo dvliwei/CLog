@@ -1,6 +1,6 @@
 {
-    "name": "dvliwei/Clog",
-    "description": "The dvliwei CLog package.",
+    "name": "dvliwei/clog",
+    "description": "The dvliwei cLog package.",
     "license": "MIT",
     "homepage": "https://laravel.com",
     "support": {
