@@ -3,6 +3,7 @@
     "require-dev": {
         "dvliwei/clog": "dev"
     },
+    "homepage":"https://github.com/dvliwei/CLog.git",
     "authors": [
         {
             "name": "李伟",
