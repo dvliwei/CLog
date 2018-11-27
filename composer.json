@@ -1,36 +1,13 @@
 {
-    "name": "dvliwei/clog",
-    "description": "The dvliwei cLog package.",
-    "license": "MIT",
-    "homepage": "https://laravel.com",
-    "support": {
-        "issues": "https://github.com/laravel/framework/issues",
-        "source": "https://github.com/laravel/framework"
+    "name": "liwei/c-log",
+    "require-dev": {
+        "dvliwei/clog": "dev"
     },
     "authors": [
         {
-            "name": "dvliwei",
-            "email": "liwei1987821@126.com"
+            "name": "李伟",
+            "email": "php.wei.li@gmail.com"
         }
     ],
-    "require": {
-        "php": "^7.1.3",
-        "illuminate/contracts": "5.6.*",
-        "illuminate/support": "5.6.*",
-        "monolog/monolog": "~1.11"
-    },
-    "autoload": {
-        "psr-4": {
-            "Illuminate\\Log\\": ""
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "5.6-dev"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev"
+    "require": {}
 }
